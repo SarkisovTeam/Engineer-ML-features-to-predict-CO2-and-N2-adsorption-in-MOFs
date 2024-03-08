@@ -1,0 +1,23 @@
+SimulationType                MonteCarlo
+NumberOfCycles                10000
+NumberOfInitializationCycles  0
+PrintEvery                    10000
+PrintPropertiesEvery          10000
+ForceField                          Local
+CutOffVDW                           12
+CutOffChargeCharge                  12
+CutOffChargeBondDipole              12
+CutOffBondDipoleBondDipole          12
+ChargeMethod                        Ewald
+EwaldPrecision                      1e-06
+RemoveAtomNumberCodeFromLabel       yes
+Framework                           0
+FrameworkName                       1_charged
+ExternalTemperature                 298.0
+UseChargesFromCIFFile               yes
+UnitCells                           1 1 1
+Component 0 MoleculeName                  CO2
+            MoleculeDefinition            CO2
+            IdealGasRosenbluthWeight 1.0
+            WidomProbability         1.0
+            CreateNumberOfMolecules  0
